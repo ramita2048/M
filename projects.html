@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Projects - Ramita</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .project-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin: 30px auto;
+    }
+
+    .project-card {
+      background: white;
+      padding: 18px;
+      border-radius: 18px;
+      box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 210px;
+      object-fit: cover;
+      display: block;
+      border-radius: 12px;
+    }
+
+    .project-card h2 {
+      color: #527da8;
+      margin-top: 18px;
+    }
+
+    .project-card p {
+      color: #555;
+      line-height: 1.6;
+      margin-top: 10px;
+    }
+
+    .project-button {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 10px 22px;
+      background: #527da8;
+      color: white;
+      border: 2px solid #527da8;
+      border-radius: 25px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .project-button:hover {
+      background: #365b82;
+      border-color: #365b82;
+      transform: translateY(-2px);
+    }
+
+    .project-button:focus-visible {
+      outline: 3px solid #365b82;
+      outline-offset: 4px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">♡ Ramita.</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>My Projects 💻</h1>
+  <p>Here are some projects related to my IT learning journey.</p>
+
+  <div class="project-container">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img
+        src="https://www.agaraminfotech.com/assets/images/blogs/2018/visitor-management-system.webp"
+        alt="Visitor Management System">
+
+      <h2>Visitor Entry Logging System</h2>
+
+      <p>
+        A Java project used to record visitor details
+        and monitor their entry and exit times.
+      </p>
+
+      <p><strong>Technology:</strong> Java</p>
+
+      <a
+        href="https://github.com/ramita2048/vistior"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-button">
+        View Project ↗
+      </a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img
+        src="https://media.geeksforgeeks.org/wp-content/uploads/20250912145915229090/Screenshot-2025-09-12-145859.png"
+        alt="C Programming Project">
+
+      <h2>Contact Book Using C</h2>
+
+      <p>
+        A C programming project to add, search,
+        update, and display contact details.
+      </p>
+
+      <p><strong>Technology:</strong> C Programming</p>
+
+      <a
+        href="https://github.com/ramita2048/Contact-book"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-button">
+        View Project ↗
+      </a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img
+        src="https://www.iitms.co.in/library-management-system/img/RFID-Library-System-Workflow.webp"
+        alt="Library Management Workflow">
+
+      <h2>Library Management System</h2>
+
+      <p>
+        A sample system concept for organizing library
+        records and tracking library resources.
+      </p>
+
+      <p><strong>Technology:</strong> Web Development Concept</p>
+
+      <a
+        href="https://github.com/ramita2048/library"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-button">
+        View Project ↗
+      </a>
+    </div>
+
+  </div>
+</main>
+
+<footer>Made with ♡ by Ramita V.</footer>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+  <div class="logo">♡ Ramita.</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>Contact Me ♡</h1>
+  <section class="card">
+    <p><b>Email:</b>
+      <a href="mailto:ramitav0708@gmail.com">ramitav0708@gmail.com</a>
+    </p>
+    <p><b>Location:</b> Chennai, India</p>
+    <p><b>GitHub:</b>
+      <a href="https://github.com/ramita" target="_blank" rel="noopener noreferrer">github.com/ramita</a>
+    </p>
+  </section>
+
+  <br>
+  <form id="contactForm">
+    <h2>Send a Message</h2>
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" required minlength="2">
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required minlength="5"></textarea>
+
+    <button class="btn" type="submit">Check Message ♡</button>
+    <p id="formMessage" role="status"></p>
+    <p>Demo form only. No message will be sent to a server.</p>
+  </form>
+</main>
+<footer>Made with ♡ by Ramita V.</footer>
+</body>
+</html>
